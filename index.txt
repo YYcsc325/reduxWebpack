@@ -1,0 +1,2 @@
+1: clear包没安装
+2: transform-runtime 没配置
