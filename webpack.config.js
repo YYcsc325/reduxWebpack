@@ -99,14 +99,14 @@ module.exports = {
         ]
     },
     resolve: {
-        // 别名
+        // 别名配置相对路径
         alias: {
           '@pages':path.join(__dirname,'src/pages'),
           '@com':path.join(__dirname,'src/component'),
           '@actions':path.join(__dirname,'src/redux/actions'),
           '@reducers':path.join(__dirname,'src/redux/reducers'),
         },
-        // 省略后缀
+        // 省略后缀 -- 优先去寻找这些文件
         extensions: ['.js', '.jsx', '.json', '.css', '.less']
     },                           
     plugins: [                                          // 对应的插件     
